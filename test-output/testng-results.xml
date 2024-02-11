@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-11T19:27:12 IST" name="Default suite" finished-at="2024-02-11T19:29:41 IST" duration-ms="149434">
+    <groups>
+    </groups>
+    <test started-at="2024-02-11T19:27:12 IST" name="Default test" finished-at="2024-02-11T19:29:41 IST" duration-ms="149434">
+      <class name="links.GetLinks">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:links.GetLinks@2e554a3b]" started-at="2024-02-11T19:27:12 IST" name="initializeDriver" finished-at="2024-02-11T19:28:54 IST" duration-ms="102253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="findBrokenLinks()[pri:0, instance:links.GetLinks@2e554a3b]" started-at="2024-02-11T19:28:54 IST" name="findBrokenLinks" finished-at="2024-02-11T19:29:41 IST" duration-ms="46349" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The Link is Broken https://phptravels.com/pricing with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/demo with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/pricing with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/themes with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/integrations with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/customizations with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/technology with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/requirements with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/flights-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/hotels-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/tours-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/cars-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/blog-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/cms-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/offers-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/newsletter-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/clients with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/contact-us with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/about-us with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/the-team with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/jobs with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/partners with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/media-kit with status code 404 expected [true] but found [false],
+The Link is Broken https://tazkira.ae/ with status code 404 expected [true] but found [false],
+The Link is Broken https://tazkira.ae/%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class= with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/ with status code 404 expected [true] but found [false],
+The Link is Broken https://www.twitter.com/phptravels with status code 403 expected [true] but found [false],
+The Link is Broken https://www.linkedin.com/company/phptravels/ with status code 999 expected [true] but found [false],
+The Link is Broken https://phptravels.com/demo/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/mobile-apps/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/pricing/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/features/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/technology/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/change-log/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/updates/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/requirements/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/affiliate/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/roadmap/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/services/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/customizations/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/change-log/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/expedia-api-integration/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/shared-hosting/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/about-us/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/contact-us/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/jobs/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/the-team/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/abuse-policy/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/privacy-statement/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/terms-and-conditions/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/earn-with-phptravels with status code 404 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The Link is Broken https://phptravels.com/pricing with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/demo with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/pricing with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/themes with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/integrations with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/customizations with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/technology with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/requirements with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/flights-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/hotels-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/tours-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/cars-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/blog-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/cms-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/offers-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/newsletter-module-features with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/clients with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/contact-us with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/about-us with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/the-team with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/jobs with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/partners with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/media-kit with status code 404 expected [true] but found [false],
+The Link is Broken https://tazkira.ae/ with status code 404 expected [true] but found [false],
+The Link is Broken https://tazkira.ae/%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class= with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/ with status code 404 expected [true] but found [false],
+The Link is Broken https://www.twitter.com/phptravels with status code 403 expected [true] but found [false],
+The Link is Broken https://www.linkedin.com/company/phptravels/ with status code 999 expected [true] but found [false],
+The Link is Broken https://phptravels.com/demo/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/mobile-apps/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/pricing/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/features/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/technology/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/change-log/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/updates/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/requirements/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/affiliate/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/roadmap/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/services/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/customizations/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/change-log/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/expedia-api-integration/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/shared-hosting/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/about-us/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/contact-us/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/jobs/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/the-team/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/abuse-policy/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/privacy-statement/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/terms-and-conditions/ with status code 404 expected [true] but found [false],
+The Link is Broken https://phptravels.com/earn-with-phptravels with status code 404 expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at links.GetLinks.findBrokenLinks(GetLinks.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBrokenLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:links.GetLinks@2e554a3b]" started-at="2024-02-11T19:29:41 IST" name="tearDown" finished-at="2024-02-11T19:29:41 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- links.GetLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
